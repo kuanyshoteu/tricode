@@ -25,6 +25,10 @@ body{
 .bg_red{
 	background-color: #FF595E;
 }
+.bg_yellow{
+	background-color: #ffbe0b;
+	height: 500px;
+}
 .dflex{
 	display: flex;
 }
@@ -48,4 +52,19 @@ body{
 }
 #second_info{
 	
+}
+.card{
+	width: calc(25% - 20px);
+	margin-right: 20px;
+	box-shadow: 1px 1px 15px 3px #b28507;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: white;
+	text-align: center;
+}
+.card_img{
+	background-image: url("../images/lezut_na_music.png");
+	height: 150px;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
