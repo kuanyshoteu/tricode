@@ -15,6 +15,6 @@ class Playlist(models.Model):
 class Track(models.Model):
     name = models.TextField(blank = True,null = True,default='My Song')
     artist = models.TextField(blank = True,null = True,default='My Artist')
-    link = models.TextField(blank = True,null = True,default='My link')
+    file = models.FileField(default='')
     listenings = models.IntegerField(blank = True,null = True,default=0)
 

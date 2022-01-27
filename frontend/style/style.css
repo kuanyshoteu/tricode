@@ -64,6 +64,7 @@ input{
 	justify-content: center;
 }
 #main_info{
+	min-height: 72.9%;
 }
 #second_info{
 	
@@ -89,10 +90,7 @@ input{
 	display: flex;
 	justify-content: center;
 }
-.btn{
-	padding: 7px 10px;
-	background-color: lightblue;
-}
+
 .link_right{
 	position: absolute;
 	right: 30px;
@@ -104,6 +102,9 @@ input{
 .mt50{
 	margin-top: 50px;
 }
+.mt30{
+	margin-top: 30px;
+}
 .mt15{
 	margin-top: 15px;
 }
@@ -112,9 +113,33 @@ input{
 }
 
 .btn{
-	width: 100%;
-	background-color: #023e8a;
-	color: white;
+	width: calc(100% - 30px);
+	border-radius: 7px;
 	border: none;
-	border-radius:  ;
+	padding: 7px 15px;
+	cursor: pointer;
+	font-size: 15px;
+	font-weight: 600;
+	display: block;
+	text-align: center;
+}
+.btn-white{
+	background-color: #fff;
+}
+
+.btn-white:hover{
+	background-color: #e5e5e5;
+}
+.btn-green{
+	background-color: lightgreen;
+}
+
+.btn-green:hover{
+	background-color: lightseagreen;
+}
+.hidden{
+	display: none;
+}
+.file_post{
+  cursor: pointer;
 }
